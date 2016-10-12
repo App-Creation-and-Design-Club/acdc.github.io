@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+table {
+	border: 2px dashed white;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 2px solid orange;
+	text-align: center;
+	padding: 3px;
+	height: 50px;
+}
+
+tr {
+	color: white;
+}
+
+input {
+	padding: 2px;
+	text-align: center;
+	width: 85%;
+}
+
+h1 {
+	color: red;
+	font-family: Serif;
+	font-size: 30px;
+}
+
+h2 {
+	color: green;
+	font-family: Serif;
+	font-size: 30px;
+}
+
+h3 {
+	color: yellow;
+	font-family: Serif;
+	font-size: 30px;
+}
+
+/*#SubmitButton {
+	position: relative;
+	left: 90%;
+	top: 90%;
+}*/
+
+div {
+	position: relative;
+	left: 85%;
+}
