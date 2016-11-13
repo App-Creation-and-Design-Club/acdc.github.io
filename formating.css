@@ -46,13 +46,35 @@ h3 {
 	font-size: 30px;
 }
 
-/*#SubmitButton {
-	position: relative;
-	left: 90%;
-	top: 90%;
-}*/
-
 div {
 	position: relative;
 	left: 85%;
+}
+
+#row-fluid {
+	position: relative;
+	left: 0;
+	width: 98%;
+	/*border: 1px solid lime;*/
+    text-align: center;
+}
+
+span {
+	display: inline-block;
+    background-color: #ff8;
+}
+
+span:first-child {
+    background-color: green;
+    float: left;
+}
+
+span:span:nth-child(2) {
+	background-color: yellow;
+	float: center;
+}
+
+span:last-child {
+    background-color: red;
+    float: right;
 }
