@@ -2,7 +2,8 @@ body {
 	background-color: black;
 	margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 table {
@@ -54,7 +55,7 @@ div {
 #row-fluid {
 	position: relative;
 	left: 0;
-	width: 98%;
+	width: 97.7%;
 	/*border: 1px solid lime;*/
     text-align: center;
 }
