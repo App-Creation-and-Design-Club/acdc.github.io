@@ -13,9 +13,9 @@ function addRow()
 	var c0 = r.insertCell(0);
 	var c1 = r.insertCell(1);
 	var c2 = r.insertCell(2);
-	c0.innerHTML = "<input type='text' name='Name' value='[Name]'>";
-	c1.innerHTML = "<input type='text' name='Grade' value='[Grade]'>";
-	c2.innerHTML = "<input type='text' name='Email' value='[Email]'>";
+	c0.innerHTML = "<div data-tip='[Name]'><input type='text' name='Name' value=''></div>";
+	c1.innerHTML = "<div data-tip='Grade'><input style='width: 50%' type='text' name='Grade' value=''></div>";
+	c2.innerHTML = "<div data-tip='Email'><input type='text' name='Email' value=''></div>";
 }
 
 function delRow()
